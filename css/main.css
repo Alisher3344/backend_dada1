@@ -26,6 +26,7 @@ flex-direction: column; */
 width: 90% !important;
 margin: 10px !important;
 border: 1px solid black;
+
     }
 }
 
@@ -74,4 +75,24 @@ top: -10px;
         width: 100%;
         height: auto;
      }
+ }
+ .div_tods_box{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+ }
+ .card_elem_el{
+    margin: 30px;
+    width: 90%;
+    backdrop-filter: blur(100px);
+    border-radius: 12px;
+    padding: 20px;
+ }
+ .button_go_comands{
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
  }

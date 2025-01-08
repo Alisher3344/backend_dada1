@@ -66,9 +66,9 @@ return `<div class="card_in_box">
         </p>
 
         <div class="card_in_div">
-            <a href="./pages/todos.html"> <button class="card_in_button1 buttonss" style="background-color: rgb(219, 53, 69)"  onclick="FuncId(${user.id})">todos</button></a>
-            <a href="./pages/posts.html"> <button class="card_in_button2 buttonss" style="background-color: rgb(26, 135, 84);">posts</button></a>
-            <a href="./pages/photo.html"> <button class="card_in_button3 buttonss" style="background-color: rgb(13, 109, 252)">photo</button></a>
+            <a href="./pages/todos.html"> <button  onclick="FuncId(${user.userId})" class="card_in_button1 buttonss" style="background-color: rgb(219, 53, 69);">todos</button></a>
+            <a href="./pages/posts.html"> <button  onclick="FuncId(${user.userId})" class="card_in_button2 buttonss" style="background-color: rgb(26, 135, 84);">posts</button></a>
+            <a href="./pages/photo.html"> <button  onclick="FuncId(${user.userId})" class="card_in_button3 buttonss" style="background-color: rgb(13, 109, 252);">photo</button></a>
         </div>
        </div>
    </div>`
